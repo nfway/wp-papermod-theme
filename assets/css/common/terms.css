@@ -1,0 +1,36 @@
+.terms-tags ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    text-align: center;
+}
+
+.terms-tags li {
+    display: inline-block;
+    margin: 10px;
+}
+
+.terms-tags a {
+    display: block;
+    padding: 8px 15px;
+    background: var(--entry);
+    border: 1px solid var(--border);
+    border-radius: var(--radius);
+    color: var(--primary);
+    line-height: 1.2;
+    text-decoration: none;
+    transition: transform 0.1s, box-shadow 0.2s;
+}
+
+.terms-tags a:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.dark .terms-tags a:hover {
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+}
+
+.terms-tags a:active {
+    transform: scale(0.98);
+}

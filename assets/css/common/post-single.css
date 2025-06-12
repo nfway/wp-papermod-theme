@@ -1,0 +1,198 @@
+.page-header,
+.post-header {
+    margin: 24px auto var(--content-gap) auto;
+}
+
+.post-title {
+    margin-bottom: 2px;
+    font-size: 40px;
+}
+
+.post-description {
+    margin-top: 10px;
+    margin-bottom: 5px;
+}
+
+.post-meta,
+.breadcrumbs {
+    color: var(--secondary);
+    font-size: 14px;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+}
+
+.post-meta .post-tags a {
+    color: var(--secondary);
+    text-decoration: underline;
+}
+
+.post-meta .post-tags a:hover {
+    color: var(--primary);
+}
+
+.breadcrumbs {
+    margin-bottom: 10px;
+}
+
+.breadcrumbs a {
+    color: var(--secondary);
+}
+.breadcrumbs a:hover {
+    text-decoration: underline;
+}
+
+.breadcrumbs span {
+    color: var(--primary);
+}
+
+
+.post-content {
+    color: var(--content);
+}
+
+.post-content h3,
+.post-content h4,
+.post-content h5,
+.post-content h6 {
+    margin: 24px 0 16px;
+}
+
+.post-content h1 {
+    margin: 40px auto 32px;
+    font-size: 40px;
+}
+
+.post-content h2 {
+    margin: 32px auto 24px;
+    font-size: 32px;
+}
+
+.post-content h3 {
+    font-size: 24px;
+}
+
+.post-content h4 {
+    font-size: 16px;
+}
+
+.post-content h5 {
+    font-size: 14px;
+}
+
+.post-content h6 {
+    font-size: 12px;
+}
+
+.post-content a {
+    box-shadow: 0 1px 0;
+}
+
+.post-content del {
+    text-decoration: line-through;
+}
+
+.post-content dl,
+.post-content ol,
+.post-content p,
+.post-content figure,
+.post-content ul {
+    margin-bottom: var(--content-gap);
+}
+
+.post-content ol,
+.post-content ul {
+    padding-inline-start: 20px;
+}
+
+.post-content li {
+    margin-top: 5px;
+}
+
+.post-content li p {
+    margin-bottom: 0;
+}
+
+.post-content table {
+    margin-bottom: var(--content-gap);
+}
+
+.post-content table th,
+.post-content table:not(.highlighttable, .highlight table) td {
+    min-width: 80px;
+    padding: 8px 5px;
+    line-height: 1.5;
+    border-bottom: 1px solid var(--border);
+}
+
+.post-content table th {
+    text-align: start;
+}
+
+.post-content .highlight {
+    margin: 10px auto;
+    background: var(--code-block-bg) !important;
+    border-radius: var(--radius);
+    direction: ltr;
+    position: relative;
+}
+
+.post-content pre {
+    margin: 0;
+    padding: 10px;
+    color: rgb(213, 213, 214);
+    background: var(--code-block-bg) !important;
+    border-radius: var(--radius);
+    overflow-x: auto;
+}
+
+.post-content blockquote {
+    margin: 20px 0;
+    padding: 0 14px;
+    border-inline-start: 3px solid var(--primary);
+}
+
+.post-content hr {
+    margin: 30px 0;
+    height: 2px;
+    background: var(--tertiary);
+    border: 0;
+}
+
+.post-content img {
+    border-radius: 4px;
+    margin: 1rem 0;
+}
+
+.post-footer {
+    margin-top: 56px;
+}
+
+.paginav {
+    display: flex;
+    justify-content: space-between;
+    line-height: 30px;
+    border-radius: var(--radius);
+    background: var(--code-bg);
+    border: 1px solid var(--border);
+    padding: var(--content-gap);
+}
+
+.paginav a {
+    width: 48%;
+}
+
+.paginav .title {
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    font-size: small;
+    color: var(--secondary);
+}
+
+.paginav a:hover span:not(.title) {
+    box-shadow: 0 1px 0;
+}
+
+.paginav .next {
+    text-align: right;
+}

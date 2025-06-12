@@ -1,0 +1,108 @@
+.comments-area {
+    margin-top: 56px;
+    padding: var(--gap);
+    background: var(--entry);
+    border: 1px solid var(--border);
+    border-radius: var(--radius);
+}
+
+.comments-title,
+.comment-reply-title {
+    font-size: 24px;
+    margin-bottom: var(--gap);
+}
+
+.comment-list {
+    list-style: none;
+    padding: 0;
+}
+
+.comment-list li {
+    margin-bottom: var(--gap);
+    padding-bottom: var(--gap);
+    border-bottom: 1px solid var(--border);
+}
+
+.comment-list li:last-child {
+    border-bottom: none;
+}
+
+.comment-body {
+    padding: var(--content-gap);
+    background: var(--theme);
+    border-radius: var(--radius);
+}
+
+.comment-author .fn {
+    font-weight: bold;
+    font-style: normal;
+}
+
+.comment-meta {
+    font-size: 14px;
+    color: var(--secondary);
+    margin-bottom: var(--content-gap);
+}
+
+.comment-meta a {
+    color: var(--secondary);
+    text-decoration: none;
+}
+
+.comment-meta a:hover {
+    text-decoration: underline;
+}
+
+.comment-content p {
+    margin-bottom: 1em;
+}
+
+.reply a {
+    font-size: 14px;
+    padding: 4px 12px;
+    background: var(--code-bg);
+    border: 1px solid var(--border);
+    border-radius: var(--radius);
+    color: var(--primary);
+}
+
+.reply a:hover {
+    background: var(--border);
+}
+
+.comment-form p {
+    margin-bottom: 1em;
+}
+
+.comment-form label {
+    display: block;
+    margin-bottom: 0.5em;
+    font-weight: 500;
+}
+
+.comment-form input[type="text"],
+.comment-form input[type="email"],
+.comment-form input[type="url"],
+.comment-form textarea {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid var(--border);
+    border-radius: var(--radius);
+    background: var(--theme);
+    color: var(--primary);
+    font-size: 16px;
+}
+
+.comment-form input[type="submit"] {
+    background: var(--primary);
+    color: var(--theme);
+    border: none;
+    padding: 10px 20px;
+    border-radius: var(--radius);
+    cursor: pointer;
+    font-weight: bold;
+}
+
+.comment-form input[type="submit"]:hover {
+    opacity: 0.9;
+}
